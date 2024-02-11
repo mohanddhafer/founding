@@ -1,0 +1,127 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.menu {
+    background-color: #6B4E45;
+    overflow: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.menu ul {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: #231f20;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menu li a:hover {
+    background-color: #F4EADA;
+}
+
+.main {
+    background-color: #F4EADA;
+    overflow: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.photos {
+    overflow: auto;
+    background-color: #DEC9B2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.photos img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #111111;
+    border-radius: 6px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.footer {
+    overflow: auto;
+    background-color: #DEC9B2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+.footer ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.footer li a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: #231f20;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    background-color: #F4EADA;
+}
+
+.footer h2 {
+    color: #6B4E45;
+}
+
+h1 {
+    color: #6B4E45;
+    font-weight: bold;
+    font-size: 36px;
+}
+h2{
+    color: #6B4E45;
+}
